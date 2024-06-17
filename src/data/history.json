@@ -1,0 +1,47 @@
+[
+    {
+      "role": "Undergraduate Learning Assistant for Algorithmic Thinking and Programming",
+      "organisation": "Department of Computer Science at MSU",
+      "startDate": "Sept, 2023",
+      "endDate": "May 2024",
+      "experiences": [
+        "Co-led the biweekly class and weekly help rooms for 40+ students using previous computer science knowledge to clarify challenging concepts and improve overall class performance and understanding"
+      ],
+      "imageSrc": "history/csemsu.jpeg"
+    },
+    {
+      "role": "Full Stack Software Development Intern",
+      "organisation": "Ascent Cloud",
+      "startDate": "May, 2023",
+      "endDate": "Aug, 2023",
+      "experiences": [
+        "Collaborated as a full stack developer within an Agile team of 8 to develop and maintain LevelEleven, a top 5 sales gamification software available on Salesforce",
+        "Spearheaded automated email functionality with React, JavaScript, CSS, and Apex, delivering the feature 2 months ahead of schedule, enhancing user engagement and reducing team workload",
+        "Enhanced product reliability by developing functional unit tests, contributing to improved test coverage and overall product stability"],
+      "imageSrc": "history/ascentcloud.png"
+    },
+    {
+      "role": "Robotic Process Automation Bot Developer Intern",
+      "organisation": "Delta Dental of Michigan",
+      "startDate": "Dec, 2022",
+      "endDate": "Apr, 2023",
+      "experiences": [
+        "Upgraded company's 3 most used UiPath bots independently to the latest version, implementing code enhancements including variable integration, dynamic code implementation, and optimization",
+        "Monitored Orchestrator queues on VMware to promptly identify and resolve errors causing bot failures, resulting in a significant reduction in failure rates and ensuring seamless operation",
+        "Collaborated effectively with cross-functional teams to address technical challenges and demonstrated proactive initiative in troubleshooting and resolving issues, contributing to team cohesion and project success"
+      ],
+      "imageSrc": "history/deltaDental.jpeg"
+    },
+    {
+        "role": "Undergraduate Research Assistant",
+        "organisation": "Department of Computer Science at MSU",
+        "startDate": "May, 2022",
+        "endDate": "July, 2022",
+        "experiences": [
+          "Researched and Tested methods of modelling DNA sequence evolution into a phylogenetic tree using UNIX based system to determine the accuracy and practical application in real world scenario",
+          "Presented research poster to showcase the methodology and results of the research at Mid-Sure symposium"
+        ],
+        "imageSrc": "history/csemsu.jpeg"
+      }
+  ]
+  
