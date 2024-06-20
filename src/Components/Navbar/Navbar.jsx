@@ -1,10 +1,25 @@
 import React, { useState } from "react";
-
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
+import resume from "../../../public/Tejas Singhal Resume.pdf";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  // Function to handle the download of the resume
+  const onResumeClick = (e) => {
+    e.preventDefault();
+
+    fetch(resume).then((response) => {
+      response.blob().then((blob) => {
+        const fileURL = window.URL.createObjectURL(blob);
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = resume;
+        alink.click();
+      });
+    });
+  };
 
   return (
     <nav className={styles.navbar}>
@@ -39,13 +54,12 @@ export const Navbar = () => {
             <a href="#contact">Contact</a>
           </li>
           <li>
-          <a href="public/Tejas Singhal Resume.pdf" download>Resume</a>
+            <a href={resume} onClick={onResumeClick}>
+              Resume
+            </a>
           </li>
         </ul>
       </div>
     </nav>
   );
 };
-
-
-
